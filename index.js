@@ -4,8 +4,13 @@
 
 function Nav() {
     return (
-        <nav>
-            <img src="react.png" width="40px" />
+        <nav className="nav">
+            <img src="react.png" className="react-logo" />
+            <ul className="nav-items">
+                <li>Home</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+            </ul>
         </nav>
     )
 }
@@ -35,7 +40,7 @@ function Footer() {
 
 function Page() {
     return (
-        <div>
+        <div className="page">
             <Nav />
             <Body />
             <Footer />

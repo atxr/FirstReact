@@ -1,0 +1,39 @@
+body {
+    background-color: #332424;
+    color: #70d6e1;
+    font-family: "monospace";
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 5px 20px #888888;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #6c3636b9;
+    color: #46ced8;
+}
+
+.react-logo {
+    width: 70px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.nav-items > li {
+    padding: 15px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #888888;
+    width: 100%;
+    padding: 4px;
+}
