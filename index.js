@@ -25,9 +25,22 @@ function Body() {
     )
 }
 
-ReactDOM.render(
-    <div>
-        <Nav />
-        <Body />
-    </div>,
-    document.getElementById("root"))
+function Footer() {
+    return (
+        <footer>
+            <small>All rigths reserved</small>
+        </footer>
+    )
+}
+
+function Page() {
+    return (
+        <div>
+            <Nav />
+            <Body />
+            <Footer />
+        </div>
+    )
+}
+
+ReactDOM.render(<Page />, document.getElementById("root"))
