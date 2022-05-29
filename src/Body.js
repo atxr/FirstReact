@@ -1,4 +1,4 @@
-export default function Body() {
+export default function App() {
     return (
         <div>
             <h1>Fun facts about React</h1>

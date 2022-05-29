@@ -1,12 +1,12 @@
 // Without the CDNs we need these two lines to import React
-// import React from 'react'
-// import ReactDOM from 'react-dom'
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 import Header from "./Header"
 import Body from "./Body"
 import Footer from "./Footer"
 
-function Page() {
+function App() {
     return (
         <div className="page">
             <Header />
@@ -16,4 +16,4 @@ function Page() {
     )
 }
 
-ReactDOM.render(<Page />, document.getElementById("root"))
+ReactDOM.render(<App />, document.getElementById("root"))
